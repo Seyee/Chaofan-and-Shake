@@ -52,13 +52,13 @@ public class OrderHistoryAdapter extends RecyclerView.Adapter<OrderHistoryAdapte
         Context context = holder.itemView.getContext();
         NotificationHelper notificationHelper = new NotificationHelper(context);
 
-        holder.tvOrderDate.setText("Order Date: " + order.getDate());
-        holder.tvOrderItems.setText("Items: " + order.getOrderSummary());
+        holder.tvOrderDate.setText("Status: " + order.getDate());
+        holder.tvOrderItems.setText("Username: " + order.getOrderSummary());
         holder.tvTotalAmount.setText("Total: ₱" + String.format("%.2f", order.getTotalPrice()));
         holder.tvPaymentMethod.setText("Payment: " + order.getPaymentMethod());
         holder.tvCustomerName.setText("Name: " + order.getCustomerName());
-        holder.tvPhone.setText("Phone: " + order.getPhoneNumber());
-        holder.tvUsername.setText("Username: " + order.getUsername());
+        holder.tvPhone.setText("Orders: " + order.getPhoneNumber());
+        holder.tvUsername.setText("Phone: " + order.getUsername());
 
         String orderStatus = order.getStatus();
 

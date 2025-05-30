@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"/>
+        android:text="Phone number"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/layoutname"
@@ -36,7 +36,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Username"/>
+        android:text="Name"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/layoutusername"
@@ -63,7 +63,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Phone"/>
+        android:text="Username"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/layoutUsername"
